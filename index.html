@@ -22,7 +22,7 @@
             background: #ffffff;
         }
 
-        /* 游戏区域：固定 1920x1080，最大化显示 */
+        /* 游戏区域：始终保持 16:9，最大化显示 */
         #unity-wrap {
             position: relative;
             width: min(100vw, calc(100vh * 16 / 9));
@@ -209,7 +209,7 @@
 
 <body>
     <div id="unity-wrap">
-        <canvas id="unity-canvas" width="1920" height="1080" tabindex="-1"></canvas>
+        <canvas id="unity-canvas" width="1440" height="810" tabindex="-1"></canvas>
 
         <div id="token-overlay">
             <div id="token-box">
